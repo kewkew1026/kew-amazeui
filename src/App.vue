@@ -32,27 +32,27 @@
       <div class="admin-sidebar am-offcanvas">
         <div class="am-offcanvas-bar admin-offcanvas-bar">
           <ul class="am-list admin-sidebar-list">
-            <li><a v-link="{path: '/'}"><span class="am-icon-home"></span> Home</a></li>
+            <li><router-link to="/"><span class="am-icon-home"></span> Home</router-link></li>
             <li class="admin-parent">
               <a class="am-cf"><span class="am-icon-file"></span> Components <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
               <ul class="am-list am-collapse admin-sidebar-sub am-in">
-                <li><a v-link="{path: '/forms'}"><span class="am-icon-edit"></span> Forms</a></li>
-                <li><a v-link="{path: '/buttons'}"><span class="am-icon-square-o"></span> Buttons</a></li>
-                <li><a v-link="{path: '/lists'}"><span class="am-icon-th"></span> Lists</a></li>
-                <li><a v-link="{path: '/panels'}"><span class="am-icon-calendar"></span> Panels</a></li>
-                <li><a v-link="{path: '/modals'}"><span class="am-icon-bug"></span> Modals</a></li>
-                <li><a v-link="{path: '/paginations'}"><span class="am-icon-bug"></span> Paginations</a></li>
-                <li><a v-link="{path: '/breadcrumb'}"><span class="am-icon-bug"></span> Breadcrumbs</a></li>
-                <li><a v-link="{path: '/article'}"><span class="am-icon-bug"></span> Articles</a></li>
-                <li><a v-link="{path: '/datetimepicker'}"><span class="am-icon-bug"></span> DateTimePickers</a></li>
-                <li><a v-link="{path: '/navs'}"><span class="am-icon-bug"></span> Navs</a></li>
-                <li><a v-link="{path: '/tabs'}"><span class="am-icon-bug"></span> Tabs</a></li>
+                <li><router-link to="/forms"><span class="am-icon-edit"></span> Forms</router-link></li>
+                <li><router-link to="/buttons"><span class="am-icon-square-o"></span> Buttons</router-link></li>
+                <li><router-link to="/lists"><span class="am-icon-th"></span> Lists</router-link></li>
+                <li><router-link to="/panels"><span class="am-icon-calendar"></span> Panels</router-link></li>
+                <li><router-link to="/modals"><span class="am-icon-bug"></span> Modals</router-link></li>
+                <li><router-link to="/paginations"><span class="am-icon-bug"></span> Paginations</router-link></li>
+                <li><router-link to="/breadcrumb"><span class="am-icon-bug"></span> Breadcrumbs</router-link></li>
+                <li><router-link to="/article"><span class="am-icon-bug"></span> Articles</router-link></li>
+                <li><router-link to="/datetimepicker"><span class="am-icon-bug"></span> DateTimePickers</router-link></li>
+                <li><router-link to="/navs"><span class="am-icon-bug"></span> Navs</router-link></li>
+                <li><router-link to="/tabs"><span class="am-icon-bug"></span> Tabs</router-link></li>
               </ul>
             </li>
             <li class="admin-parent">
               <a class="am-cf"><span class="am-icon-file"></span> Advanced <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
               <ul class="am-list am-collapse admin-sidebar-sub am-in">
-                <li><a v-link="{path: '/datatables'}"><span class="am-icon-edit"></span> DataTables</a></li>
+                <li><router-link to="/datatables"><span class="am-icon-edit"></span> DataTables</router-link></li>
               </ul>
             </li>
           </ul>
@@ -90,7 +90,7 @@
 
     </div>
 
-    <a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+    <a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas"></a>
   </div>
 </template>
 
