@@ -1,9 +1,7 @@
-
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import router from './router/index';
-import amazeuiVue from './components/main';
-import App from './App';
+import Vue from "vue";
+import router from "./router/index";
+import amazeuiVue from "./components/main";
+import App from "./App";
 
 Vue.config.productionTip = false
 
